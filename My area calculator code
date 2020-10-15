@@ -1,2 +1,31 @@
-user_name = input("Enter your name: ")
-print("Hello, ", Tyler)
+def square():
+side = input("enter the side length of the square: ")
+side = int(side)
+squarea = side * side 
+print(" the area of the square is:", squarea)
+
+def retangle():
+length = input("enter the length of the retangle: ")
+width = input("enter the width of the rectangle: ")
+length = int (lenght)
+width = int (width)
+retanglearea = length * width
+print("the area of the rectangle is:",  rectanglearea)
+
+def circle():
+r = input("enter the radius of the circle: ")
+r = int (r)
+circlearea = 3.14159265359 * r ** 2
+print("the area of the circle is:", circlearea)
+
+def trangle():
+a = input("enter the base of the triangle: ")
+b = input("enter the height of the triangle: ")
+a = int(a)
+b = int(b)
+c = a * b / 2
+print("the area of the triangle is:", c)
+
+
+mainmenu() :
+userChoice = input("Would you like to calculate area for square (s), rectangle (r), circle (c), trangle(t)")
